@@ -3,13 +3,6 @@ const request = require('request');
 const fs = require('fs');
 const readline = require('readline');
 
-// const net = require('net');
-
-// const conn = net.createConnection({
-//   host: args[0],
-//   port: 80
-// });
-
 // function to write data into file
 const writeToFile = function (args, body) {
   fs.writeFile(args[1], body, err => {
